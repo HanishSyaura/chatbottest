@@ -167,7 +167,7 @@
 <body>
   <div class="chat-container">
     <div class="header">
-      <img src="C:/Users/nicol/Downloads/1745550317631.jpg" alt="Chatbot Icon">
+      <img src="C:/Users/nicol/OneDrive/Desktop/chatbottest/1745550317631.jpg" alt="Chatbot Icon">
       <span>n8n Chatbot</span>
     </div>
     <div class="messages" id="messages"></div>
@@ -214,7 +214,7 @@
       addMessage('Bot is typing...', 'bot');
 
       try {
-        const response = await fetch('https://n8n.jiosgroup.com/webhook-test/chatbottest', {
+        const response = await fetch('https://n8n.jiosgroup.com/webhook/chatbottest', {
           method: 'POST',
           body: formData
         });
